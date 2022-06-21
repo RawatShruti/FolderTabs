@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>Folder Tabs</Title>
+        <!--Favicon Link-->
+        <link rel="icon" type="image/x-icon" href="assets\img\folders.png">
+        <!--CSS Link-->
+        <link type="text/css" rel='stylesheet' href="assets\css\style.css">
+    </head>
+    <body>
+        <!--Radio Buttons-->
+        <input class="variation" id="solid" type="radio" value="flatui" name="border" checked="checked" />
+        <label for="solid">
+            <span class="circle"></span>
+            <span>Flat UI</span>
+        </label>
+        <input class="variation" id="shadow" type="radio" value="realistic" name="border" />
+        <label for="shadow"> 
+            <span class="circle"></span>
+            <span>Realistic</span>
+        </label>
+
+
+        <!--Folders-->
+        <div class="folder">  
+            <div class="tabs">
+              <button class="tab active" onclick="openTab(event, 'tab-1')">  
+                <div><span>About Me</span></div>  
+              </button>
+              <button class="tab" onclick="openTab(event, 'tab-2')">  
+                <div><span>Education</span></div>  
+              </button>
+              <button class="tab" onclick="openTab(event, 'tab-3')">  
+                <div><span>Certificate</span></div>  
+              </button>
+              <button class="tab" onclick="openTab(event, 'tab-4')">  
+                <div><span>Skills</span></div>  
+              </button></div>  
+            <div class="content">  
+              <div class="content__inner" id="tab-1">  
+                <div class="page">
+                  <p>👋🏽 Hi, my name is Shruti Rawat.
+                    <br>
+                    🎓 Soon to graduate with a Bachelor's in Computer Science, Computer Application (June 2022) from Banasthali University, Jaipur.
+                    <br>
+                    🌇 New Delhi native, with a passion for developing software. 
+                    <br>
+                    📚 I worked as a content writer and campus ambassador at different companies during my first and second years of college. Developed many small projects using HTML, CSS and JS. Currently, I am working on my portfolio website and planning on designing many bigger projects using AI, ML and Blockchain.
+                    <br>
+                    💻 As for my future, I hope to one day work as a Full Stack Developer and work with a diverse team at a top IT company. 
+                    <br>
+                    🏔 In my free time, you can find me reading or travelling across India.
+                    <br>
+                    💪🏽 Software Development, Web Applications, Responsive Web Design, Front-end Development, Linux, GitHub, Bootstrap, React JS, Java.
+                  </p>
+                </div>  
+              </div>  
+              <div class="content__inner" id="tab-2">  
+                <div class="page">
+                  <p>A lilttle bit about my education
+                      <ul>
+                          <span><b>Banasthali University                      2022</b></span>
+                          <li>
+                              CGPA 8.6
+                          </li>
+                          <li>
+                              Developed many small project through out the course and one major project in our final year.
+                          </li>
+                          <b>Bal Bahavan International School       2019</b>
+                          <li>
+                              Humanities, Precentage: 85%
+                          </li>
+                          <li>
+                              Caption Care and Share club.
+                          </li>
+                          <b>Bal Bahavan International School       2017</b>
+                          <li>
+                              CGPA 8.6
+                          </li>
+                          <li>
+                              Organised and participated various events.
+                          </li>
+                      </ul>
+                  </p>
+                </div>  
+              </div>  
+              <div class="content__inner" id="tab-3">  
+                <div class="page">  
+                  <p>Here are few of my certifications:
+                    <ul>
+                      <span><b>HTML, CSS, and Javascript for Web Developers</b></span>
+                      <li>
+                          <b>Offered by:</b> John Hopkins University 
+                      </li>
+                      <li>
+                          <b>Credential ID:</b> <a href="https://www.coursera.org/account/accomplishments/verify/AUYEC74DXH2T">AUYEC74DXH2T</a>>
+                      </li>
+                      <br><span><b>Google IT Support</b></span>
+                      <li>
+                          <b>Offered by:</b> Google
+                      </li>
+                      <li>
+                          <b>Credential ID:</b> <a href="https://coursera.org/verify/professional-cert/DQW2KDJ6YF8T">DQW2KDJ6YF8T</a>>
+                      </li>
+                  </ul>
+                  </p>  
+                </div>  
+              </div>  
+              <div class="content__inner" id="tab-4">  
+                <div class="page">  
+                  <div class="skills container">
+                        <div class="progress">
+                          <span class="skill"><img src="assets\img\html-5.png" style="height: 19.2px;"> HTML<i class="val">100%</i></span>
+                          <div class="progress-bar-wrap">
+                            <div class="progress-bar html"aria-valuenow="50"></div>
+                          </div>
+                        </div>
+              
+                        <div class="progress">
+                          <span class="skill"><img src="assets\img\css-3.png" style="height: 19.2px;"> CSS<i class="val">90%</i></span>
+                          <div class="progress-bar-wrap">
+                            <div class="progress-bar css"></div>
+                          </div>
+                        </div>
+              
+                        <div class="progress">
+                          <span class="skill"><img src="assets\img\js.png" style="height: 19.2px;"> JavaScript<i class="val">75%</i></span>
+                          <div class="progress-bar-wrap">
+                            <div class="progress-bar js"></div>
+                          </div>
+                        </div>
+                            
+                        <div class="progress">
+                          <span class="skill"><img src="assets\img\mysql.png" style="height: 19.2px;"> MySQL<i class="val">80%</i></span>
+                          <div class="progress-bar-wrap">
+                            <div class="progress-bar mysql"></div>
+                          </div>
+                        </div>
+                  </div>
+                </div>  
+              </div>  
+            </div>  
+          </div>
+        
+        <!--JS Link-->
+        <script type='text/javascript' src="assets\js\main.js"></script>
+    </body>
+</html>
+
